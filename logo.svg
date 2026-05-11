@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title>Sunrise Academy Logo</title>
+  <defs>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="20" fill="#1a472a"/>
+  <circle cx="60" cy="40" r="22" fill="url(#sunGradient)"/>
+  <path d="M22 90 C40 70, 80 70, 98 90" stroke="#ffd700" stroke-width="8" fill="none"/>
+  <path d="M34 82 C45 70, 72 70, 86 82" stroke="#ffffff" stroke-width="6" fill="none"/>
+  <path d="M40 90 L40 105 M60 85 L60 105 M80 90 L80 105" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>

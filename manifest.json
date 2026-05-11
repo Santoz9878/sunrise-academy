@@ -1,0 +1,18 @@
+{
+  "name": "Sunrise Academy",
+  "short_name": "Sunrise Academy",
+  "description": "Premier primary school in Nairobi offering CBC curriculum",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a472a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
