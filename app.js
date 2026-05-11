@@ -108,7 +108,8 @@ const App = () => {
             <p>
               {schoolInfo.name} is a premier primary school located in {schoolInfo.location}, 
               committed to providing quality education following the Kenyan Competency-Based 
-              Curriculum (CBC).
+              Curriculum (CBC). We offer comprehensive education from Kindergarten through 
+              Grade 8, focusing on holistic child development.
             </p>
             <div className="about-features">
               <div className="feature">
@@ -129,9 +130,7 @@ const App = () => {
             </div>
           </div>
           <div className="about-image">
-            <div className="image-placeholder">
-              🏫
-            </div>
+            <div className="image-placeholder">🏫</div>
           </div>
         </div>
       </section>
@@ -151,7 +150,6 @@ const App = () => {
               <li>Environmental awareness</li>
             </ul>
           </div>
-
           <div className="program-card">
             <div className="program-header">📖</div>
             <h3>Lower Primary</h3>
@@ -165,7 +163,6 @@ const App = () => {
               <li>Christian Religious Education</li>
             </ul>
           </div>
-
           <div className="program-card">
             <div className="program-header">📚</div>
             <h3>Upper Primary</h3>
@@ -179,7 +176,6 @@ const App = () => {
               <li>Creative Arts</li>
             </ul>
           </div>
-
           <div className="program-card">
             <div className="program-header">🎓</div>
             <h3>Junior Secondary</h3>
@@ -220,14 +216,14 @@ const App = () => {
                 <div className="step-number">3</div>
                 <div className="step-content">
                   <h4>Assessment</h4>
-                  <p>Student takes a placement assessment</p>
+                  <p>Student takes a placement assessment (Grade 2 and above)</p>
                 </div>
               </div>
               <div className="step">
                 <div className="step-number">4</div>
                 <div className="step-content">
                   <h4>Enrollment</h4>
-                  <p>Complete registration and fee payment</p>
+                  <p>Complete registration and fee payment to secure a spot</p>
                 </div>
               </div>
             </div>
@@ -304,6 +300,7 @@ const App = () => {
               <div>
                 <h4>Phone</h4>
                 <p>+254 700 123 456</p>
+                <p>+254 700 789 012</p>
               </div>
             </div>
             <div className="contact-item">
@@ -311,6 +308,15 @@ const App = () => {
               <div>
                 <h4>Email</h4>
                 <p>info@sunriseacademy.ac.ke</p>
+                <p>admissions@sunriseacademy.ac.ke</p>
+              </div>
+            </div>
+            <div className="contact-item">
+              <span className="contact-icon">🕐</span>
+              <div>
+                <h4>Office Hours</h4>
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Saturday: 9:00 AM - 12:00 PM</p>
               </div>
             </div>
           </div>
@@ -328,6 +334,7 @@ const App = () => {
           <div className="footer-section">
             <h3>{schoolInfo.name}</h3>
             <p>{schoolInfo.motto}</p>
+            <p>Providing quality education from Kindergarten to Grade 8 following the Kenyan CBC curriculum.</p>
           </div>
           <div className="footer-section">
             <h4>Quick Links</h4>
@@ -346,7 +353,7 @@ const App = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2024 {schoolInfo.name}. All rights reserved.</p>
+          <p>&copy; 2024 {schoolInfo.name}. All rights reserved. | Designed for Kenyan Primary Education</p>
         </div>
       </footer>
     </div>
