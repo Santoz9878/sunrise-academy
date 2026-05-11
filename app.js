@@ -1,5 +1,4 @@
 const { useState } = React;
-
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('home');
